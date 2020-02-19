@@ -30,51 +30,48 @@ padding:20px auto;
 
 /* If you ahe created any new stlyes in InDesign and used export tags then you need to add them here */
 
+
 body {
-}
-section.dramatis {
-}
-section.play {
-}
-div.sceneImage {
-}
-h1.act {
+font-family: verdana, arial, sans-serif;
 
 }
-p.character {
+
+
+h1 {
+color:#0000ff ;
+font-family: georgia, serif;
+text-align: center;
+}
+
+
+div.everything {
+  margin: 10px auto;
+  width: 70%;
+  padding: 20px;
 
 }
-p.charactername {
+
+img {
+  display: block;
+  width: 50%;
+  margin: 12px 10px;
 
 }
-h1.dramatishead {
 
-}
-h2.firstscene {
+@media only screen and (min-width: 600px) {
+  img {
+    display: block;
+    width: 30%;
+    margin: 12px 10px;
+    float: right;
+  }
 
-}
-h2.location {
+  div.everything {
+    margin: 10px auto;
+    width: 70%;
+    max-width: 750px;
+    padding: 20px;
+    overflow: auto;
+  }
 
-}
-p.play_location {
-
-}
-p.prose {
-
-}
-h2.scene {
-
-}
-p.song {
-
-}
-h2.stagedirection {
-
-}
-p.verseline {
-
-}
-span.character_role {
-}
-span.stage_directions_inline {
 }
