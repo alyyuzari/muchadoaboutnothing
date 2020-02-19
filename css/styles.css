@@ -1,7 +1,7 @@
 /* This stylesheet is where to add styles for your Shakespeare Play */
 /*We usually add something general for the body*/
 body {
-  /*your style rules go in here */
+/*your style rules go in here */
 }
 
 /*Here follows the class names that you will have in your html*/
@@ -9,24 +9,25 @@ body {
 /*You need to add the style attributes between the curly brackets*/
 
 /* the following may not be used  */
+img {
+  display: block;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
 
-section.cover {
-text-align:center;
-width:70%;
-margin: 20px auto;
 }
 
-img.playimage {
-/* you will need a width attribute in here */
-max-width:40%;
-padding:20px auto;
+div
+{
+  padding: 30px 50px;
+  margin: 10px auto;
+  width: 75%;
+  border: 1px black;
+  border-style: dashed;
+  overflow: auto;
+
 }
 
-img.shakespeareimage {
-/* you will need a width attribute in here */
-max-width:40%;
-padding:20px auto;
-}
 
 /* If you ahe created any new stlyes in InDesign and used export tags then you need to add them here */
 
@@ -44,17 +45,6 @@ text-align: center;
 }
 
 
-div.everything {
-  margin: 10px auto;
-  width: 70%;
-  padding: 20px;
-
-}
-
-img {
-  display: block;
-  width: 50%;
-  margin: 12px 10px;
 
 }
 
@@ -62,16 +52,11 @@ img {
   img {
     display: block;
     width: 30%;
-    margin: 12px 10px;
+    margin-left: auto;
+    margin-left: auto;
     float: right;
+
   }
 
-  div.everything {
-    margin: 10px auto;
-    width: 70%;
-    max-width: 750px;
-    padding: 20px;
-    overflow: auto;
-  }
 
 }
