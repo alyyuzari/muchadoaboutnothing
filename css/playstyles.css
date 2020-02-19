@@ -13,6 +13,20 @@ border-style: dotted;
 
 }
 
+.scene a, .firstscene a  {
+  position: relative;
+  bottom: 100px;
+}
+
+.act a {
+  position: relative;
+  bottom: 100px;
+}
+
+.dramatishead a {
+  position: relative;
+  bottom: 100px;
+}
 h1 {
   text-align: center;
 }
