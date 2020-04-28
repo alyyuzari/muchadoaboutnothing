@@ -37,6 +37,11 @@ section.play {
   margin: 12px auto;
   max-width: 750px;
 }
+
+img {
+  width:100%;
+}
+
 div.sceneImage {
 }
 h1.act {
