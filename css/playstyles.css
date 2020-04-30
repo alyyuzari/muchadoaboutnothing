@@ -2,8 +2,9 @@
 /* background-color: } */
 body {
   font-family: didot, serif;
-  margin: 20px;
+   margin: 12px 0;
 }
+
 section.dramatis {
 width: 70%;
 margin: 60px auto;
@@ -45,6 +46,10 @@ img {
     width: 50%;
   }
 
+  audio {
+    width:100%;
+  }
+
 div.sceneImage {
 }
 h1.act {
@@ -56,7 +61,7 @@ background-color: rgb(223, 210, 247);
 padding: 12px 0;
 }
 p.character {
-font-size: 1.4em;
+font-size: 1.1em;
 color: rgb(129, 135, 69);
 }
 p.charactername {
@@ -96,22 +101,6 @@ margin: 0 12px 0 60px;
 
 }
 
-.video-box {
-	position: relative;
-	padding-bottom: 56.25%;
-	padding-top: 30px;
-	height: 0;
-	overflow: hidden;
-	margin-bottom: 12px;
-}
-
-.video-box iframe {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
 span.character_role {
   font-style: italic;
 }
@@ -318,13 +307,28 @@ h1.act, h1.dramatishead {
   font-size: 200%;
 }
 
+/* section.dramatis {
+  width: 70%;
+  font-size: 120%
+
+}
+
+section.play {
+  width: 70%;
+  font-size: 120%;
+
+} */
+
 ul {
   width:auto;
   float:right;
   overflow:visible;
   position:static;
   top:inherit;
-
+  max-width: 100%;
+}
+body {
+margin:20px;
 }
 
 
